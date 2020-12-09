@@ -36,4 +36,7 @@ end
 V1(i)=V1(i-1);
 P(i)=P(i-1);
 V1=transpose(V1);
+subplot(2,1,1);
 plot(V1,I);
+subplot(2,1,2);
+plot(V1,P);
